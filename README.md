@@ -1,6 +1,6 @@
 # haskell-parser
 Haskell parser of zeroth-order logic formulas.
-Parser was made using [BNFC](https://github.com/BNFC/bnfc)
+Parser was made using [BNFC](https://github.com/BNFC/bnfc).
 Available syntax elements:
 * Alternative - "v"
 * Conjunction - "^"
@@ -10,10 +10,14 @@ Available syntax elements:
 * Usage of brackets
 
 To use the parser, you need to feed ./TextLogic file entrance.
-Example:
+## Example
+Input:
 ```
 echo "a ^ (x <=> ~c) => b" | ./TestLogic
+```
 
+Output:
+```
 Parse Successful!
 
 [Abstract Syntax]
