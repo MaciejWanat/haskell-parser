@@ -6,6 +6,7 @@ Available syntax elements:
 * Conjunction - "^"
 * Implication - "=>"
 * Equality - "<=>"
+* Negation - "~"
 * Variables - lowercase alphabet characters
 * Usage of brackets
 
